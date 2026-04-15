@@ -1,4 +1,4 @@
-import { Github, Brain, Database, Cpu, Layers } from 'lucide-react';
+import { ExternalLink, Brain, Database, Cpu, Layers } from 'lucide-react';
 
 const diseaseClasses = [
   { plant: '🍎 Apple', count: 4, diseases: ['Apple Scab', 'Black Rot', 'Cedar Apple Rust', 'Healthy'] },
@@ -171,7 +171,7 @@ export default function About() {
             rel="noopener noreferrer"
             className="btn btn-primary btn-lg"
           >
-            <Github size={18} /> View on GitHub
+            <ExternalLink size={18} /> View on GitHub
           </a>
           <a
             href="https://github.com/saurabhsingh1202/plant-disease-model/blob/main/plant-disease-prediction.ipynb"

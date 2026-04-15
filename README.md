@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌿 PlantGuard AI — Plant Disease Detection System
 
 <div align="center">
@@ -263,3 +264,7 @@ This project is open source and available under the [MIT License](LICENSE).
 Made with 🌿 and deep learning · PlantGuard AI 2026
 
 </div>
+=======
+# plant-disease-model
+🌿 Plant Disease Detection using CNN: Built a deep learning model to classify plant leaf images into 38 disease categories using TensorFlow/Keras. The system processes uploaded images, predicts disease with high accuracy, and is integrated with a backend API for real-time results.
+>>>>>>> 2bbc5cf55fb17eba6f83c7039d07de2e34617b40

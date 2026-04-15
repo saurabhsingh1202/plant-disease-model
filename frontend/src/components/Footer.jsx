@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Leaf, Github, Mail } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -46,7 +46,7 @@ export default function Footer() {
           rel="noopener noreferrer"
           style={{ display: 'flex', alignItems: 'center', gap: 6, fontSize: 13, color: 'var(--text-muted)' }}
         >
-          <Github size={15} /> View on GitHub
+          <ExternalLink size={15} /> View on GitHub
         </a>
       </div>
     </footer>
