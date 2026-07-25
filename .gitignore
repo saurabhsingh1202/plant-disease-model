@@ -22,6 +22,7 @@ __pycache__/
 *.egg-info/
 .venv/
 venv/
+ml_service/venv312/
 *.pyc
 
 # Model file (large — stored in original repo)
