@@ -1,0 +1,32 @@
+{
+  "Uttar Pradesh": [
+    { "mandi": "Varanasi", "crop": "Rice (Paddy)", "price": 2350, "unit": "Quintal", "arrival": "120 Tonnes" },
+    { "mandi": "Varanasi", "crop": "Wheat", "price": 2275, "unit": "Quintal", "arrival": "95 Tonnes" },
+    { "mandi": "Varanasi", "crop": "Potato", "price": 1450, "unit": "Quintal", "arrival": "40 Tonnes" },
+    { "mandi": "Varanasi", "crop": "Tomato", "price": 1800, "unit": "Quintal", "arrival": "15 Tonnes" },
+    { "mandi": "Lucknow", "crop": "Rice (Paddy)", "price": 2400, "unit": "Quintal", "arrival": "150 Tonnes" },
+    { "mandi": "Lucknow", "crop": "Wheat", "price": 2300, "unit": "Quintal", "arrival": "110 Tonnes" },
+    { "mandi": "Lucknow", "crop": "Potato", "price": 1400, "unit": "Quintal", "arrival": "80 Tonnes" },
+    { "mandi": "Lucknow", "crop": "Onion", "price": 2100, "unit": "Quintal", "arrival": "30 Tonnes" }
+  ],
+  "Bihar": [
+    { "mandi": "Patna", "crop": "Rice (Paddy)", "price": 2250, "unit": "Quintal", "arrival": "75 Tonnes" },
+    { "mandi": "Patna", "crop": "Wheat", "price": 2240, "unit": "Quintal", "arrival": "60 Tonnes" },
+    { "mandi": "Patna", "crop": "Potato", "price": 1500, "unit": "Quintal", "arrival": "35 Tonnes" },
+    { "mandi": "Muzaffarpur", "crop": "Rice (Paddy)", "price": 2200, "unit": "Quintal", "arrival": "45 Tonnes" },
+    { "mandi": "Muzaffarpur", "crop": "Wheat", "price": 2220, "unit": "Quintal", "arrival": "50 Tonnes" }
+  ],
+  "Punjab": [
+    { "mandi": "Amritsar", "crop": "Rice (Paddy)", "price": 2450, "unit": "Quintal", "arrival": "300 Tonnes" },
+    { "mandi": "Amritsar", "crop": "Wheat", "price": 2275, "unit": "Quintal", "arrival": "240 Tonnes" },
+    { "mandi": "Ludhiana", "crop": "Rice (Paddy)", "price": 2480, "unit": "Quintal", "arrival": "350 Tonnes" },
+    { "mandi": "Ludhiana", "crop": "Wheat", "price": 2275, "unit": "Quintal", "arrival": "290 Tonnes" }
+  ],
+  "Maharashtra": [
+    { "mandi": "Pune", "crop": "Onion", "price": 2200, "unit": "Quintal", "arrival": "180 Tonnes" },
+    { "mandi": "Pune", "crop": "Tomato", "price": 1650, "unit": "Quintal", "arrival": "60 Tonnes" },
+    { "mandi": "Pune", "crop": "Soybean", "price": 4350, "unit": "Quintal", "arrival": "90 Tonnes" },
+    { "mandi": "Nagpur", "crop": "Cotton", "price": 7200, "unit": "Quintal", "arrival": "120 Tonnes" },
+    { "mandi": "Nagpur", "crop": "Soybean", "price": 4400, "unit": "Quintal", "arrival": "110 Tonnes" }
+  ]
+}

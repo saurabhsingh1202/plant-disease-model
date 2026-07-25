@@ -1,0 +1,89 @@
+{
+  "Uttar Pradesh": [
+    {
+      "name": "PM Kisan Samman Nidhi",
+      "description": "Provides financial assistance of ₹6,000 per year in three equal installments directly into the bank accounts of farmers.",
+      "eligibility": "All landholding farmer families.",
+      "benefits": "₹6,000 per annum in three installments.",
+      "link": "https://pmkisan.gov.in"
+    },
+    {
+      "name": "UP Pankaj Kisan Uday Yojana",
+      "description": "Provides solar-powered energy-efficient pumps to farmers, reducing irrigation expenses.",
+      "eligibility": "Farmers owning agricultural land with access to water sources.",
+      "benefits": "Subsidized solar pump sets (up to 70% subsidy).",
+      "link": "https://upagriculture.com"
+    },
+    {
+      "name": "Kisan Credit Card (KCC) Scheme",
+      "description": "Provides short-term timely credit to farmers for crop cultivation and maintenance.",
+      "eligibility": "All farmers, owner cultivators, sharecroppers, tenant farmers.",
+      "benefits": "Loans up to ₹3 Lakhs at subsidized interest rates of 4% per annum.",
+      "link": "https://www.up.gov.in"
+    }
+  ],
+  "Bihar": [
+    {
+      "name": "Bihar Mukhyamantri Kisan Sahayata Yojana",
+      "description": "Provides financial aid to farmers in the event of crop loss due to natural calamities like drought or floods.",
+      "eligibility": "Registered farmers in Bihar who face >20% crop damage.",
+      "benefits": "Compensation up to ₹10,000 per hectare.",
+      "link": "https://dbtagriculture.bihar.gov.in"
+    },
+    {
+      "name": "Bihar Diesel Anudan Yojana",
+      "description": "Offers subsidy on diesel for irrigating crops during dry spells and droughts.",
+      "eligibility": "Registered Bihar farmers performing diesel-powered pump irrigation.",
+      "benefits": "Subsidy of ₹75 per liter for diesel, up to limit of ₹750/acre.",
+      "link": "https://dbtagriculture.bihar.gov.in"
+    }
+  ],
+  "Punjab": [
+    {
+      "name": "Punjab Crop Diversification Scheme",
+      "description": "Encourages farmers to shift from paddy cultivation to other crops like maize, pulses, and oilseeds to conserve groundwater.",
+      "eligibility": "All farmers in Punjab.",
+      "benefits": "Financial incentives, free seed distribution, and guaranteed MSP for alternative crops.",
+      "link": "https://agri.punjab.gov.in"
+    },
+    {
+      "name": "Punjab Debt Waiver Scheme",
+      "description": "Provides relief to small and marginal farmers by waiving agricultural loans up to a certain limit.",
+      "eligibility": "Small/marginal farmers with landholdings up to 5 acres.",
+      "benefits": "Loan waiver of up to ₹2 Lakhs.",
+      "link": "https://punjab.gov.in"
+    }
+  ],
+  "Maharashtra": [
+    {
+      "name": "Namo Shetkari Mahasanman Nidhi Yojana",
+      "description": "A state-level scheme matching the PM-Kisan scheme, providing additional financial support.",
+      "eligibility": "Maharashtra farmers registered under PM-Kisan.",
+      "benefits": "Additional ₹6,000 per year (total of ₹12,000 including PM-Kisan).",
+      "link": "https://krishi.maharashtra.gov.in"
+    },
+    {
+      "name": "Magel Tyala Shettale (Farm Pond Scheme)",
+      "description": "Assists farmers in digging farm ponds to secure water supply for crops during dry spells.",
+      "eligibility": "Farmers with at least 0.60 hectares of land.",
+      "benefits": "Subsidy of up to ₹50,000 for digging ponds.",
+      "link": "https://mahadbt.maharashtra.gov.in"
+    }
+  ],
+  "Tamil Nadu": [
+    {
+      "name": "TN Free Electricity Scheme for Agriculture",
+      "description": "Provides free, uninterrupted electrical power to agricultural pump sets to reduce irrigation overheads.",
+      "eligibility": "Landholding farmers with authorized agricultural service connections.",
+      "benefits": "100% free electricity for irrigation pumps.",
+      "link": "https://www.tangedco.gov.in"
+    },
+    {
+      "name": "Kuruvai Special Packages",
+      "description": "Provides subsidized inputs (fertilizers, seeds, micro-nutrients) for the Kuruvai crop season in the Cauvery delta.",
+      "eligibility": "Farmers in the Cauvery delta districts.",
+      "benefits": "Up to 50% subsidy on agricultural inputs.",
+      "link": "https://www.tn.gov.in"
+    }
+  ]
+}

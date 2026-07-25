@@ -1,0 +1,114 @@
+{
+  "Andhra Pradesh": {
+    "Kharif Season": { "sowing": "Jun-Jul", "planting": "Jul-Aug", "harvest": "Oct-Nov" },
+    "Rabi Season": { "sowing": "Oct-Nov", "planting": "Nov-Dec", "harvest": "Mar-Apr" }
+  },
+  "Arunachal Pradesh": {
+    "Kharif Season": { "sowing": "Apr-May", "planting": "May-Jun", "harvest": "Sep-Oct" },
+    "Rabi Season": { "sowing": "Oct-Nov", "planting": "Nov-Dec", "harvest": "Mar-Apr" }
+  },
+  "Assam": {
+    "Kharif Season": { "sowing": "May-Jun", "planting": "Jun-Jul", "harvest": "Oct-Nov" },
+    "Rabi Season": { "sowing": "Oct-Nov", "planting": "Nov-Dec", "harvest": "Feb-Mar" }
+  },
+  "Bihar": {
+    "Kharif Season": { "sowing": "Jun-Jul", "planting": "Jul-Aug", "harvest": "Oct-Nov" },
+    "Rabi Season": { "sowing": "Oct-Nov", "planting": "Nov-Dec", "harvest": "Mar-Apr" }
+  },
+  "Chhattisgarh": {
+    "Kharif Season": { "sowing": "Jun-Jul", "planting": "Jul-Aug", "harvest": "Oct-Nov" },
+    "Rabi Season": { "sowing": "Oct-Nov", "planting": "Nov-Dec", "harvest": "Feb-Mar" }
+  },
+  "Goa": {
+    "Kharif Season": { "sowing": "Jun-Jul", "planting": "Jul-Aug", "harvest": "Oct-Nov" },
+    "Rabi Season": { "sowing": "Oct-Nov", "planting": "Nov-Dec", "harvest": "Feb-Mar" }
+  },
+  "Gujarat": {
+    "Kharif Season": { "sowing": "Jun-Jul", "planting": "Jul-Aug", "harvest": "Oct-Nov" },
+    "Rabi Season": { "sowing": "Oct-Nov", "planting": "Nov-Dec", "harvest": "Feb-Mar" }
+  },
+  "Haryana": {
+    "Kharif Season": { "sowing": "Jun-Jul", "planting": "Jul-Aug", "harvest": "Oct-Nov" },
+    "Rabi Season": { "sowing": "Oct-Nov", "planting": "Nov-Dec", "harvest": "Mar-Apr" }
+  },
+  "Himachal Pradesh": {
+    "Kharif Season": { "sowing": "Apr-May", "planting": "May-Jun", "harvest": "Sep-Oct" },
+    "Rabi Season": { "sowing": "Oct-Nov", "planting": "Nov-Dec", "harvest": "Mar-Apr" }
+  },
+  "Jharkhand": {
+    "Kharif Season": { "sowing": "Jun-Jul", "planting": "Jul-Aug", "harvest": "Oct-Nov" },
+    "Rabi Season": { "sowing": "Oct-Nov", "planting": "Nov-Dec", "harvest": "Feb-Mar" }
+  },
+  "Karnataka": {
+    "Kharif Season": { "sowing": "Jun-Jul", "planting": "Jul-Aug", "harvest": "Oct-Nov" },
+    "Rabi Season": { "sowing": "Oct-Nov", "planting": "Nov-Dec", "harvest": "Feb-Mar" }
+  },
+  "Kerala": {
+    "Kharif Season": { "sowing": "May-Jun", "planting": "Jun-Jul", "harvest": "Sep-Oct" },
+    "Rabi Season": { "sowing": "Sep-Oct", "planting": "Oct-Nov", "harvest": "Jan-Feb" }
+  },
+  "Madhya Pradesh": {
+    "Kharif Season": { "sowing": "Jun-Jul", "planting": "Jul-Aug", "harvest": "Oct-Nov" },
+    "Rabi Season": { "sowing": "Oct-Nov", "planting": "Nov-Dec", "harvest": "Mar-Apr" }
+  },
+  "Maharashtra": {
+    "Kharif Season": { "sowing": "Jun-Jul", "planting": "Jul-Aug", "harvest": "Oct-Nov" },
+    "Rabi Season": { "sowing": "Oct-Nov", "planting": "Nov-Dec", "harvest": "Feb-Mar" }
+  },
+  "Manipur": {
+    "Kharif Season": { "sowing": "May-Jun", "planting": "Jun-Jul", "harvest": "Oct-Nov" },
+    "Rabi Season": { "sowing": "Oct-Nov", "planting": "Nov-Dec", "harvest": "Mar-Apr" }
+  },
+  "Meghalaya": {
+    "Kharif Season": { "sowing": "Apr-May", "planting": "May-Jun", "harvest": "Sep-Oct" },
+    "Rabi Season": { "sowing": "Oct-Nov", "planting": "Nov-Dec", "harvest": "Mar-Apr" }
+  },
+  "Mizoram": {
+    "Kharif Season": { "sowing": "Apr-May", "planting": "May-Jun", "harvest": "Sep-Oct" },
+    "Rabi Season": { "sowing": "Oct-Nov", "planting": "Nov-Dec", "harvest": "Mar-Apr" }
+  },
+  "Nagaland": {
+    "Kharif Season": { "sowing": "Apr-May", "planting": "May-Jun", "harvest": "Sep-Oct" },
+    "Rabi Season": { "sowing": "Oct-Nov", "planting": "Nov-Dec", "harvest": "Mar-Apr" }
+  },
+  "Odisha": {
+    "Kharif Season": { "sowing": "Jun-Jul", "planting": "Jul-Aug", "harvest": "Oct-Nov" },
+    "Rabi Season": { "sowing": "Oct-Nov", "planting": "Nov-Dec", "harvest": "Feb-Mar" }
+  },
+  "Punjab": {
+    "Kharif Season": { "sowing": "Jun-Jul", "planting": "Jul-Aug", "harvest": "Oct-Nov" },
+    "Rabi Season": { "sowing": "Oct-Nov", "planting": "Nov-Dec", "harvest": "Apr-May" }
+  },
+  "Rajasthan": {
+    "Kharif Season": { "sowing": "Jun-Jul", "planting": "Jul-Aug", "harvest": "Oct-Nov" },
+    "Rabi Season": { "sowing": "Oct-Nov", "planting": "Nov-Dec", "harvest": "Mar-Apr" }
+  },
+  "Sikkim": {
+    "Kharif Season": { "sowing": "Apr-May", "planting": "May-Jun", "harvest": "Sep-Oct" },
+    "Rabi Season": { "sowing": "Oct-Nov", "planting": "Nov-Dec", "harvest": "Mar-Apr" }
+  },
+  "Tamil Nadu": {
+    "Kharif Season": { "sowing": "Jun-Jul", "planting": "Jul-Aug", "harvest": "Sep-Oct" },
+    "Rabi Season": { "sowing": "Oct-Nov", "planting": "Nov-Dec", "harvest": "Feb-Mar" }
+  },
+  "Telangana": {
+    "Kharif Season": { "sowing": "Jun-Jul", "planting": "Jul-Aug", "harvest": "Oct-Nov" },
+    "Rabi Season": { "sowing": "Oct-Nov", "planting": "Nov-Dec", "harvest": "Mar-Apr" }
+  },
+  "Tripura": {
+    "Kharif Season": { "sowing": "May-Jun", "planting": "Jun-Jul", "harvest": "Oct-Nov" },
+    "Rabi Season": { "sowing": "Oct-Nov", "planting": "Nov-Dec", "harvest": "Mar-Apr" }
+  },
+  "Uttar Pradesh": {
+    "Kharif Season": { "sowing": "Jun-Jul", "planting": "Jul-Aug", "harvest": "Oct-Nov" },
+    "Rabi Season": { "sowing": "Oct-Nov", "planting": "Nov-Dec", "harvest": "Mar-Apr" }
+  },
+  "Uttarakhand": {
+    "Kharif Season": { "sowing": "Apr-May", "planting": "May-Jun", "harvest": "Sep-Oct" },
+    "Rabi Season": { "sowing": "Oct-Nov", "planting": "Nov-Dec", "harvest": "Mar-Apr" }
+  },
+  "West Bengal": {
+    "Kharif Season": { "sowing": "May-Jun", "planting": "Jun-Jul", "harvest": "Oct-Nov" },
+    "Rabi Season": { "sowing": "Oct-Nov", "planting": "Nov-Dec", "harvest": "Mar-Apr" }
+  }
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "type": "Loamy Soil",
+    "advantages": "Highly fertile, good drainage, excellent moisture retention.",
+    "limitations": "Requires balanced nutrient management to maintain fertility.",
+    "crops": "Wheat, Rice, Sugarcane, Cotton, Vegetables.",
+    "fertilizer": "Apply balanced NPK and organic compost regularly.",
+    "pest": "Use integrated pest management (IPM) practices."
+  },
+  {
+    "type": "Clay Soil",
+    "advantages": "High nutrient retention, good water holding capacity.",
+    "limitations": "Poor drainage, compaction issues.",
+    "crops": "Paddy, Broccoli, Cabbage.",
+    "fertilizer": "Add organic matter to improve aeration.",
+    "pest": "Avoid overwatering to prevent fungal diseases."
+  },
+  {
+    "type": "Sandy Soil",
+    "advantages": "Excellent drainage, easy root penetration.",
+    "limitations": "Low nutrient and water retention.",
+    "crops": "Groundnut, Carrot, Potato, Watermelon.",
+    "fertilizer": "Frequent light fertilization recommended.",
+    "pest": "Mulching helps reduce moisture loss."
+  },
+  {
+    "type": "Silty Soil",
+    "advantages": "Good fertility, smooth texture, retains moisture well.",
+    "limitations": "Erosion-prone.",
+    "crops": "Rice, Pulses, Oilseeds.",
+    "fertilizer": "Use cover crops to prevent erosion.",
+    "pest": "Monitor drainage to prevent root diseases."
+  },
+  {
+    "type": "Black Soil",
+    "advantages": "Rich in minerals, clay, and nutrients. Good moisture retention.",
+    "limitations": "Poor drainage when wet, compaction issues.",
+    "crops": "Cotton, Soybean, Sorghum.",
+    "fertilizer": "Nitrogen and phosphorus supplementation beneficial.",
+    "pest": "Ensure proper drainage and aeration management."
+  },
+  {
+    "type": "Red Soil",
+    "advantages": "Well-drained with good aeration.",
+    "limitations": "Low nitrogen, organic humus, and phosphorus.",
+    "crops": "Millets, Groundnut.",
+    "fertilizer": "Add organic compost and balanced NPK fertilizer.",
+    "pest": "Regularly monitor for soil-borne pests."
+  },
+  {
+    "type": "Laterite Soil",
+    "advantages": "Rich in iron and aluminum oxides, well-drained structure.",
+    "limitations": "Low fertility, highly acidic.",
+    "crops": "Cashew, Coconut, Tea, Coffee.",
+    "fertilizer": "Heavy organic manuring and lime application to correct pH.",
+    "pest": "Apply soil conditioning to prevent fungal spore buildup."
+  },
+  {
+    "type": "Alluvial Soil",
+    "advantages": "Very fertile, high agricultural value.",
+    "limitations": "Can be sandy/coarse in parts depending on deposition.",
+    "crops": "Rice, Wheat, Sugarcane, Oilseeds.",
+    "fertilizer": "Requires balanced chemical fertilization and green manure.",
+    "pest": "Regular monitoring of crop-specific pests."
+  },
+  {
+    "type": "Desert Soil",
+    "advantages": "Quick drainage, high salt permeability.",
+    "limitations": "Low moisture holding capacity, deficient in organic humus.",
+    "crops": "Bajra, Dates, Barley.",
+    "fertilizer": "Organic matter (compost, bio-fertilizers) heavily needed.",
+    "pest": "Water conservation practices and root pest control."
+  },
+  {
+    "type": "Mountain Soil",
+    "advantages": "Rich in organic matter and forest humus.",
+    "limitations": "High erosion risk on steep slopes.",
+    "crops": "Tea, Coffee, Spices, Fruits.",
+    "fertilizer": "Apply terrace-farming friendly slow-release nutrients.",
+    "pest": "Monitor slope runoff and root diseases."
+  },
+  {
+    "type": "Peaty Soil",
+    "advantages": "Extremely high organic content and humus.",
+    "limitations": "Highly acidic, poor drainage.",
+    "crops": "Rice, Jute.",
+    "fertilizer": "Requires lime treatment to reduce soil acidity.",
+    "pest": "Intense fungal and mildew monitoring."
+  },
+  {
+    "type": "Saline Soil",
+    "advantages": "Mineral rich, high electrical conductivity.",
+    "limitations": "Excessive salt content limits growth of standard plants.",
+    "crops": "Barley, Cotton, Salt-tolerant grasses.",
+    "fertilizer": "Gypsum treatment to leach out exchangeable sodium.",
+    "pest": "Salt-crust management and disease control."
+  }
+]

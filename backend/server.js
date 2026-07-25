@@ -4,6 +4,7 @@ const dotenv = require('dotenv');
 const path = require('path');
 const connectDB = require('./config/db');
 const predictionRoutes = require('./routes/predictionRoutes');
+const assistantRoutes = require('./routes/assistantRoutes');
 
 dotenv.config();
 
@@ -25,6 +26,7 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 // ── Routes ────────────────────────────────────────────────────────────────────
 app.use('/api/predictions', predictionRoutes);
+app.use('/api/assistant', assistantRoutes);
 
 // Health check
 app.get('/api/health', (req, res) => {

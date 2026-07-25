@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="footer-inner">
         <div>
           <div className="footer-brand-name">
-            <span>🌿</span> PlantGuard AI
+            <span>🌿</span> KrishiSathi AI
           </div>
           <p className="footer-brand-desc">
             AI-powered plant disease detection using deep learning. Upload a leaf image

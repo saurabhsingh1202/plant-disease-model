@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Scan, Zap, Shield, BarChart3, Leaf, ArrowRight, CheckCircle2 } from 'lucide-react';
+import { useTranslation } from '../context/LanguageContext';
 
 const features = [
   {
@@ -44,6 +45,8 @@ const plants = [
 ];
 
 export default function Home() {
+  const { t } = useTranslation();
+
   return (
     <div>
       {/* ── Hero ────────────────────────────────────────────────────────────── */}
@@ -53,19 +56,18 @@ export default function Home() {
             <div>
               <div className="hero-badge">
                 <Zap size={13} />
-                AI-Powered Plant Diagnostics
+                {t('heroBadge')}
               </div>
               <h1 className="hero-title">
-                Detect Plant Diseases <span className="gradient-text">Instantly</span> with AI
+                {t('heroTitlePrefix')} <span className="gradient-text">{t('heroTitleSuffix')}</span>
               </h1>
               <p className="hero-subtitle">
-                Upload a photo of any plant leaf and our CNN deep learning model will identify
-                diseases, assess severity, and recommend treatments — in seconds.
+                {t('heroSubtitle')}
               </p>
               <div className="hero-actions">
                 <Link to="/predict" className="btn btn-primary btn-lg">
                   <Scan size={18} />
-                  Analyze a Plant
+                  {t('analyzePlant')}
                 </Link>
                 <Link to="/about" className="btn btn-outline btn-lg">
                   Learn How It Works
