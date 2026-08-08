@@ -56,3 +56,140 @@ This project has evolved from a standalone machine learning model into a compreh
 ---
 
 ## 🏗️ Project Architecture
+
+
+
+---
+
+## 🧠 ML Model Details
+
+| Property | Value |
+|---|---|
+| **Architecture** | Convolutional Neural Network (CNN) |
+| **Framework** | TensorFlow 2.x / Keras |
+| **Input Shape** | 224 × 224 × 3 (RGB) |
+| **Output Classes** | 38 disease categories |
+| **Dataset** | PlantVillage (54,305 labeled images) |
+| **Model File** | `plant_model.h5` |
+
+---
+
+## 🌐 API Endpoints
+
+### Backend (Node.js Express — Port 5000)
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `GET` | `/api/health` | Node server health status |
+| `POST` | `/api/predictions/predict` | Upload leaf image → run Flask inference → save to DB |
+| `GET` | `/api/predictions/history` | Get paginated diagnostic history |
+| `GET` | `/api/predictions/stats` | Aggregated statistics for analytics dashboard |
+| `DELETE` | `/api/predictions/:id` | Delete a prediction record and its image |
+| `GET` | `/api/assistant/weather` | Open-Meteo geocoding + weather telemetry + advice |
+| `POST` | `/api/assistant/chatbot` | Chat endpoint connected to **Mistral AI** |
+| `GET` | `/api/assistant/schemes` | Fetch government schemes filtered by state |
+| `GET` | `/api/assistant/calendar` | Fetch crop seasonal calendars filtered by state |
+| `GET` | `/api/assistant/mandi` | Fetch crop mandi market rates (with simulated variation) |
+| `GET` | `/api/assistant/soil` | Fetch details of the 12 soil profiles |
+
+### ML Microservice (Python Flask — Port 5001)
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `GET` | `/health` | Verify if Flask is running and model is loaded |
+| `POST` | `/predict` | Accept image → run CNN tensor preprocessing → return top predictions |
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technologies |
+|-------|--------------|
+| **Frontend** | React 19, Vite, Lucide React, React Router 7, React Dropzone |
+| **Styling** | Vanilla CSS (Glassmorphism & dark-theme tokens) |
+| **Backend** | Node.js, Express, Axios, Multer, dotenv |
+| **Database** | MongoDB, Mongoose |
+| **ML Engine** | Python 3, Flask, TensorFlow, Pillow, NumPy |
+| **LLM Engine** | Mistral AI API (`mistral-small-latest` model) |
+
+---
+
+## ⚙️ Getting Started
+
+### Prerequisites
+- **Node.js** v18+
+- **Python** v3.10+ (with pip)
+- **MongoDB** running locally or a MongoDB Atlas connection URI
+- **Mistral API Key** (for chatbot integration)
+- The model file `plant_model.h5` inside `ml_service/`
+
+---
+
+### 1️⃣ Clone and Setup Local Copy
+```bash
+git clone https://github.com/saurabhsingh1202/plant-disease-model.git
+cd plant-disease-model
+
+
+
+2️⃣ Configure Environment Files
+backend/.env
+
+env
+
+
+PORT=5000
+MONGODB_URI=mongodb://localhost:27017/plant-disease-db
+ML_SERVICE_URL=http://localhost:5001
+CLIENT_URL=http://localhost:5173
+MISTRAL_API_KEY=your_mistral_api_key_here
+frontend/.env
+
+env
+
+
+VITE_API_URL=http://localhost:5000/api
+VITE_BACKEND_URL=http://localhost:5000
+3️⃣ Start Services
+A. Start Flask ML Service
+bash
+
+
+cd ml_service
+# Activate virtual environment
+venv\Scripts\activate      # Windows
+# source venv/bin/activate  # Mac/Linux
+# Start server
+python app.py
+Microservice active at http://localhost:5001
+
+B. Start Express Backend
+bash
+
+
+cd backend
+npm install
+npm run dev
+REST Server active at http://localhost:5000
+
+C. Start Vite Client
+bash
+
+
+cd frontend
+npm install
+npm run dev
+Frontend running at http://localhost:5173
+
+👨‍💻 Author
+Saurabh Kumar Singh
+
+🐙 GitHub: @saurabhsingh1202
+📓 Model Notebook: plant-disease-prediction.ipynb
+📄 License
+This project is open-source and licensed under the 
+MIT License
+.
+
+Made with 🌾 and AI · KrishiSathi AI 2026
+
